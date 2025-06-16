@@ -5,9 +5,6 @@ import aiohttp
 import csv
 import io
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 TOKEN = os.getenv("TOKEN")
 CSV_URL = os.getenv("CSV_URL")
